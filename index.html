@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="bg">Red</div>
+        <select class="selectColor" onchange="changeColor(this)">
+            <option value="#FF0000">Red</option>
+            <option value="#FFFF00">Yellow</option>
+            <option value="#0000FF">Blue</option>
+            <option value="#000000">Black</option>
+            <option value="#FFFFFF">White</option>
+            <option value="#008000">Green</option>
+            <option value="#E74E14">Orange</option>
+            <option value="#007AA5">Cadetblue</option>
+        </select>
+    </section>
+
+    <div class="socialMedia">  
+        <ul class="sci">
+            <li data-text="Facebook" data-color="#1877F2">
+                <a href="#" class="facebook"> <i class="fab fa-facebook-f" aria-hidden="true"></i> </a>
+            </li>
+
+            <li data-text="Youtube" data-color="#FF0000">
+                <a href="#" class="youtube"> <i class="fab fa-youtube" aria-hidden="true"></i> </a>
+            </li>
+
+            <li data-text="Twitter" data-color="#0099ff"> 
+                <a href="#" class="twitter"> <i class="fab fa-twitter" aria-hidden="true"></i> </a>
+            </li>
+
+            <li data-text="Instagram" data-color="#e4405f">
+                <a href="#" class="instagram"> <i class="fab fa-instagram" aria-hidden="true"></i> </a>
+            </li>
+
+            <li data-text="Github" data-color="#696162">
+                <a href="#" class="github"> <i class="fab fa-github" aria-hidden="true"></i> </a>
+            </li>
+        </ul>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script src="script.js"> 
+        
+    </script>
+</body>
+</html>
